@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subway Route Planner</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12 text-center mb-4">
+                <h1>Mumbai Local Train Route Planner</h1>
+                <p class="lead">Plan your journey with real-time crowd information for Mumbai's local trains</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <a href="/map" class="btn btn-primary btn-lg">Open Map View</a>
+            </div>
+        </div>
+        
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header bg-info text-white">
+                        <h3>About This Application</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>This application helps you plan Mumbai local train routes while avoiding crowded stations. It uses:</p>
+                        <ul>
+                            <li><strong>Dijkstra's Algorithm</strong> - To find the shortest path between stations</li>
+                            <li><strong>Greedy Algorithm</strong> - To dynamically divert from crowded stations</li>
+                            <li><strong>Optimal Merge Pattern</strong> - To merge crowd data from multiple sources</li>
+                        </ul>
+                        <p>The app covers Western, Central, and Harbor lines of Mumbai's suburban railway network.</p>
+                        <p>Click the "Open Map View" button to start planning your journey.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

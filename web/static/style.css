@@ -1,0 +1,82 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .card-header {
+    font-weight: bold;
+  }
+  
+  .station-icon {
+    background: none;
+    border: none;
+  }
+  
+  .crowd-level {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .crowd-low {
+    background-color: green;
+  }
+  .crowd-medium {
+    background-color: orange;
+  }
+  .crowd-high {
+    background-color: red;
+  }
+  
+  /* Add line color indicators */
+  .line-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .western-line {
+    background-color: #ff0000;
+  }
+  
+  .central-line {
+    background-color: #0000ff;
+  }
+  
+  .harbor-line {
+    background-color: #00ff00;
+  }
+  
+  /* Update station marker styling */
+  .station-marker {
+    font-size: 12px;
+    white-space: nowrap;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2px 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Add legend styling */
+  .map-legend {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
